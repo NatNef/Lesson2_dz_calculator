@@ -16,7 +16,8 @@
     <string name="minus">-</string>
     <string name="delenie">/</string>
     <string name="umnogenie">*</string>
-    <string name="rovno">=</string>
     <string name="ravno">=</string>
+
+    <string name="counter_1">Counter on click</string>
 
 </resources>
