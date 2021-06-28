@@ -14,8 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-        android:text="@string/_1"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_1"
         app:layout_constraintBottom_toTopOf="@id/button_4"
         app:layout_constraintEnd_toStartOf="@id/button_2"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +30,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="151dp" />
@@ -41,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-        android:text="@string/_4"
+        android:text="@string/counter_4"
         android:textSize="@dimen/button_text"
         app:layout_constraintBottom_toTopOf="@id/button_7"
         app:layout_constraintEnd_toStartOf="@id/button_5"
@@ -55,7 +54,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
 
@@ -64,8 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-        android:text="@string/_7"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/button_8"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +76,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -86,9 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-        android:text="@string/_2"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_2"
         app:layout_constraintBottom_toTopOf="@id/button_5"
         app:layout_constraintEnd_toStartOf="@id/button_3"
         app:layout_constraintStart_toEndOf="@id/button_1"
@@ -103,17 +99,14 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/button_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-
-        android:text="@string/_5"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_5"
         app:layout_constraintBottom_toTopOf="@id/button_8"
         app:layout_constraintEnd_toStartOf="@id/button_6"
         app:layout_constraintStart_toEndOf="@id/button_4"
@@ -126,7 +119,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -134,9 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-        android:text="@string/_8"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/button_9"
         app:layout_constraintStart_toEndOf="@id/button_7"
@@ -149,7 +140,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
 
@@ -158,10 +149,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-        android:text="@string/_3"
-        android:textSize="@dimen/button_text"
-
+        android:text="@string/counter_3"
         app:layout_constraintBottom_toTopOf="@id/button_6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_2"
@@ -176,7 +164,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
 
@@ -185,10 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-
-        android:text="@string/_6"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_6"
         app:layout_constraintBottom_toTopOf="@id/button_9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_5"
@@ -201,7 +186,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -209,10 +194,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-
-        android:text="@string/_9"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_8"
@@ -225,7 +207,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -233,17 +215,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
         android:layout_marginTop="4dp"
-        android:text="@string/_0"
-
-        android:textSize="@dimen/button_text"
-
+        android:text="@string/counter_0"
         app:layout_constraintBottom_toTopOf="@id/button_plus"
         app:layout_constraintTop_toBottomOf="@+id/button_8"
         app:layout_constraintVertical_chainStyle="packed"
-
-        tools:layout_editor_absoluteX="161dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView_0"
@@ -252,7 +230,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -260,12 +238,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-
         android:layout_marginTop="72dp"
-        android:text="@string/zp"
-
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_zp"
         app:layout_constraintBottom_toTopOf="@id/button_minus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_0"
@@ -278,7 +252,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="40dp" />
@@ -288,15 +262,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
-
-        android:text="@string/plus"
-
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_plus"
         app:layout_constraintBottom_toTopOf="@id/button_umnogenie"
-
-
-
         app:layout_constraintTop_toBottomOf="@+id/button_0"
         app:layout_constraintVertical_bias="0.269"
         tools:layout_editor_absoluteX="161dp"
@@ -309,7 +276,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="83dp" />
@@ -320,9 +287,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
         android:layout_marginStart="36dp"
-        android:text="@string/minus"
-
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_minus"
         app:layout_constraintBottom_toTopOf="@id/button_delenie"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
@@ -337,7 +302,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="49dp" />
@@ -347,12 +312,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginButton"
-
         android:layout_marginTop="48dp"
+        android:text="@string/counter_umnogenie"
 
-        android:text="@string/umnogenie"
-
-        android:textSize="@dimen/button_text"
         app:layout_constraintTop_toBottomOf="@+id/button_plus"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="162dp"
@@ -365,7 +327,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="49dp" />
@@ -379,8 +341,7 @@
 
         android:layout_marginTop="4dp"
 
-        android:text="@string/delenie"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_delenie"
         app:layout_constraintEnd_toEndOf="parent"
 
         app:layout_constraintStart_toEndOf="@+id/button_umnogenie"
@@ -395,7 +356,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="249dp"
         tools:layout_editor_absoluteY="83dp" />
@@ -407,8 +368,7 @@
         android:layout_margin="@dimen/marginButton"
 
 
-        android:text="@string/ravno"
-        android:textSize="@dimen/button_text"
+        android:text="@string/counter_ravno"
 
         app:layout_constraintTop_toBottomOf="@+id/button_delenie"
         app:layout_constraintVertical_bias="0.5"
@@ -422,7 +382,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/_0"
-        android:textSize="@dimen/TextView"
+        android:textSize="@dimen/textCounter"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="131dp" />

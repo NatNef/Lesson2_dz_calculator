@@ -3,7 +3,8 @@
     <dimen name="TextSize">20sp</dimen>
     <dimen name="button_text">20sp</dimen>
     <dimen name="marginButton">0dp</dimen>
-    <dimen name="TextCounter">20sp</dimen>
     <dimen name="TextView">20sp</dimen>
+    <dimen name="textCounter">25sp</dimen>
+    <dimen name="master_linearMarginTop">300</dimen>
 
 </resources>

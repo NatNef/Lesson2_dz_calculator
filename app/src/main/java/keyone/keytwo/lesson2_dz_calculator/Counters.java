@@ -1,8 +1,11 @@
 package keyone.keytwo.lesson2_dz_calculator;
 
+import android.widget.Button;
+
 import java.io.Serializable;
 
 public class Counters implements Serializable {
+
 
     // счетчики
 
@@ -124,5 +127,6 @@ public class Counters implements Serializable {
     public void increaseCounter_minus () { counter_minus++; }
     public void increaseCounter_ravno () { counter_ravno++; }
 
-    }
+
+}
 
