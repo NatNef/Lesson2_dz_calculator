@@ -12,21 +12,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity  {
 
-    // Вопрос!
-    // хочу прописать в public class implements View.OnClickListener
-// но он просит создать public void onClick, хотя мы его создали внутри метода.
-
-//    @Override
-//    public void onClick(View v) {
-//        counters.incrementCounter_1();
-//        setTextCounter(textCounter_1, counters.getCounter_1());
-//
-    //получаестья можно либо весь паблик сразу обявить View.OnClickListener, для точности,
-    //или можно обойтись прописывая методы для каждой, не присваивать
-    // implements View.OnClickListener??
-
-
-
     // ДЗ 3
 
     private final String KEY = "key counter"; // создали ключ для сохранения данных
