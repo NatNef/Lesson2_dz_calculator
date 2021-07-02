@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity  {
 
-    // ДЗ 3
+
 
     private final String KEY = "key counter"; // создали ключ для сохранения данных
     private Counters counters; // для восстановления
@@ -53,12 +53,13 @@ public class MainActivity extends AppCompatActivity  {
     private Button button_delenie;
     private Button button_umnogenie;
     private Button button_ravno;
-
+//_____________________________________________
+     // ДЗ 3
     // создаем onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_knopki);
+        setContentView(R.layout.activity_knopki_LinearLayout);
 
         Counters counters = new Counters();
         initView();

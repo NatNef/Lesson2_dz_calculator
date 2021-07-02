@@ -1,392 +1,388 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="match_parent"-->
-<!--    tools:context=".MainActivity"-->
-<!--    android:background="@drawable/fon">-->
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fon">
 
 
 
-<!--    <Button-->
-<!--        android:id="@+id/button_1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_1"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_4"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_2"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        app:layout_constraintVertical_chainStyle="packed"-->
-<!--        />-->
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_1"
+        app:layout_constraintBottom_toTopOf="@id/button_4"
+        app:layout_constraintEnd_toStartOf="@id/button_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_chainStyle="packed"
+        />
 
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView_1"-->
-<!--        android:layout_width="94dp"-->
-<!--        android:layout_height="62dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="192dp"-->
-<!--        tools:layout_editor_absoluteY="151dp" />-->
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="94dp"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
 
-<!--    <Button-->
-<!--        android:id="@+id/button_4"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_4"-->
-<!--        android:textSize="@dimen/button_text"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_7"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_5"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/button_1" />-->
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_4"
+        android:textSize="@dimen/button_text"
+        app:layout_constraintBottom_toTopOf="@id/button_7"
+        app:layout_constraintEnd_toStartOf="@id/button_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_1" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView_4"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-
-<!--    <Button-->
-<!--        android:id="@+id/button_7"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_7"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_8"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/button_4" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_7"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_2"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_5"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_3"-->
-<!--        app:layout_constraintStart_toEndOf="@id/button_1"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        app:layout_constraintVertical_chainStyle="packed" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_2"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!--    <Button-->
-<!--        android:id="@+id/button_5"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_5"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_8"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_6"-->
-<!--        app:layout_constraintStart_toEndOf="@id/button_4"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/button_2" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_5"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_8"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_8"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toStartOf="@id/button_9"-->
-<!--        app:layout_constraintStart_toEndOf="@id/button_7"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/button_5" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_8"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-
-<!--    <Button-->
-<!--        android:id="@+id/button_3"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_3"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_6"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/button_2"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        app:layout_constraintVertical_chainStyle="packed" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_3"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-
-<!--    <Button-->
-<!--        android:id="@+id/button_6"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_6"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_9"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/button_5"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_3" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_6"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_9"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_9"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/button_8"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_6" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_9"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_0"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:layout_marginTop="4dp"-->
-<!--        android:text="@string/counter_0"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_plus"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_8"-->
-<!--        app:layout_constraintVertical_chainStyle="packed"-->
-<!--        tools:layout_editor_absoluteX="161dp"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_0"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_zp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:layout_marginTop="72dp"-->
-<!--        android:text="@string/counter_zp"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_minus"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/button_0"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_9" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_zp"-->
-<!--        android:layout_width="58dp"-->
-<!--        android:layout_height="22dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="16dp"-->
-<!--        tools:layout_editor_absoluteY="40dp" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_plus"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:text="@string/counter_plus"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_umnogenie"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_0"-->
-<!--        app:layout_constraintVertical_bias="0.269"-->
-<!--        tools:layout_editor_absoluteX="161dp"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_plus"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="16dp"-->
-<!--        tools:layout_editor_absoluteY="83dp" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_minus"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:layout_marginStart="36dp"-->
-<!--        android:text="@string/counter_minus"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_delenie"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.578"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/button_plus"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_zp"-->
-<!--        app:layout_constraintVertical_bias="0.035" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_minus"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--         />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_umnogenie"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-<!--        android:layout_marginTop="48dp"-->
-<!--        android:text="@string/counter_umnogenie"-->
-
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_plus"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        tools:layout_editor_absoluteX="162dp"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_umnogenie"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--         />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_delenie"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-
-
-<!--        android:layout_marginTop="4dp"-->
-
-<!--        android:text="@string/counter_delenie"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-
-<!--        app:layout_constraintStart_toEndOf="@+id/button_umnogenie"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_minus"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/button_ravno"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_delenie"-->
-<!--        android:layout_width="18dp"-->
-<!--        android:layout_height="23dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="249dp"-->
-<!--        tools:layout_editor_absoluteY="83dp" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button_ravno"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="@dimen/marginButton"-->
-
-
-<!--        android:text="@string/counter_ravno"-->
-
-<!--        app:layout_constraintTop_toBottomOf="@+id/button_delenie"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        tools:layout_editor_absoluteX="287dp"-->
-<!--        tools:ignore="MissingConstraints" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView_ravno"-->
-<!--        android:layout_width="111dp"-->
-<!--        android:layout_height="82dp"-->
-<!--        android:layout_weight="1"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/_0"-->
-<!--        android:textSize="@dimen/textCounter"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        />-->
-
-
-<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
 
 
 
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_4" />
+
+    <TextView
+        android:id="@+id/textView_7"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_2"
+        app:layout_constraintBottom_toTopOf="@id/button_5"
+        app:layout_constraintEnd_toStartOf="@id/button_3"
+        app:layout_constraintStart_toEndOf="@id/button_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_5"
+        app:layout_constraintBottom_toTopOf="@id/button_8"
+        app:layout_constraintEnd_toStartOf="@id/button_6"
+        app:layout_constraintStart_toEndOf="@id/button_4"
+        app:layout_constraintTop_toBottomOf="@id/button_2" />
+
+    <TextView
+        android:id="@+id/textView_5"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_9"
+        app:layout_constraintStart_toEndOf="@id/button_7"
+        app:layout_constraintTop_toBottomOf="@id/button_5" />
+
+    <TextView
+        android:id="@+id/textView_8"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_3"
+        app:layout_constraintBottom_toTopOf="@id/button_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_6"
+        app:layout_constraintBottom_toTopOf="@id/button_9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_5"
+        app:layout_constraintTop_toBottomOf="@+id/button_3" />
+
+    <TextView
+        android:id="@+id/textView_6"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_8"
+        app:layout_constraintTop_toBottomOf="@+id/button_6" />
+
+    <TextView
+        android:id="@+id/textView_9"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:layout_marginTop="4dp"
+        android:text="@string/counter_0"
+        app:layout_constraintBottom_toTopOf="@id/button_plus"
+        app:layout_constraintTop_toBottomOf="@+id/button_8"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:layout_editor_absoluteX="161dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_0"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_zp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:layout_marginTop="72dp"
+        android:text="@string/counter_zp"
+        app:layout_constraintBottom_toTopOf="@id/button_minus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_0"
+        app:layout_constraintTop_toBottomOf="@+id/button_9" />
+
+    <TextView
+        android:id="@+id/textView_zp"
+        android:layout_width="58dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:text="@string/counter_plus"
+        app:layout_constraintBottom_toTopOf="@id/button_umnogenie"
+        app:layout_constraintTop_toBottomOf="@+id/button_0"
+        app:layout_constraintVertical_bias="0.269"
+        tools:layout_editor_absoluteX="161dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_plus"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:layout_marginStart="36dp"
+        android:text="@string/counter_minus"
+        app:layout_constraintBottom_toTopOf="@id/button_delenie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toEndOf="@+id/button_plus"
+        app:layout_constraintTop_toBottomOf="@+id/button_zp"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/textView_minus"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+         />
+
+    <Button
+        android:id="@+id/button_umnogenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+        android:layout_marginTop="48dp"
+        android:text="@string/counter_umnogenie"
+
+        app:layout_constraintTop_toBottomOf="@+id/button_plus"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="162dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_umnogenie"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+         />
+
+    <Button
+        android:id="@+id/button_delenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+
+
+        android:layout_marginTop="4dp"
+
+        android:text="@string/counter_delenie"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/button_umnogenie"
+        app:layout_constraintTop_toBottomOf="@+id/button_minus"
+        app:layout_constraintBottom_toTopOf="@id/button_ravno"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_delenie"
+        android:layout_width="18dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button_ravno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginButton"
+
+
+        android:text="@string/counter_ravno"
+
+        app:layout_constraintTop_toBottomOf="@+id/button_delenie"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="287dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_ravno"
+        android:layout_width="111dp"
+        android:layout_height="82dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textSize="@dimen/textCounter"
+        tools:ignore="MissingConstraints"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
