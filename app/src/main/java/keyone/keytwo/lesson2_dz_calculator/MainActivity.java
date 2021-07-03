@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_knopki_LinearLayout);
+        setContentView(R.layout.activity_knopki_linearlayout);
 
         Counters counters = new Counters();
         initView();
@@ -220,6 +220,11 @@ public class MainActivity extends AppCompatActivity  {
         textCounter_zp.setText(String.format(Locale.getDefault(),"увеличивает %id", counters.getCounter_zp()));
         textCounter_ravno.setText(String.format(Locale.getDefault(),"увеличивает %id", counters.getCounter_ravno()));
     }
+
+    // ДЗ 4
+
+//    // подключить шрифт
+//        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/19659.ttf");
 
     }
 

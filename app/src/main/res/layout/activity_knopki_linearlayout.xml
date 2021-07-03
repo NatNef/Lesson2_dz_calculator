@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/fon">
+    android:background="@drawable/fon"
+    >
 
 
     <Space
@@ -26,7 +27,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_1"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+
+          />
 
 <!--        <TextView-->
 <!--                android:id="@+id/textView_1"-->
@@ -46,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_2"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 
 <!--        <TextView-->
 <!--            android:id="@+id/textView_2"-->
@@ -65,7 +71,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_3"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"/>
 
 <!--        <TextView-->
 <!--            android:id="@+id/textView_3"-->
@@ -91,7 +99,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_4"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginStart="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_4"-->
 <!--            android:layout_width="94dp"-->
@@ -108,7 +118,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_5"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_5"-->
 <!--            android:layout_width="94dp"-->
@@ -125,7 +136,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_6"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_6"-->
 <!--            android:layout_width="94dp"-->
@@ -146,10 +159,12 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             android:text="@string/_7"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_7"-->
 <!--            android:layout_width="94dp"-->
@@ -166,7 +181,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_8"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_8"-->
 <!--            android:layout_width="94dp"-->
@@ -183,7 +199,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/_9"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            />
 <!--        <TextView-->
 <!--            android:id="@+id/textView_9"-->
 <!--            android:layout_width="94dp"-->
@@ -207,7 +226,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/_0"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_0"-->
 <!--            android:layout_width="94dp"-->
@@ -231,7 +253,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/counter_plus"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginStart="20dp"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_plus"-->
 <!--            android:layout_width="94dp"-->
@@ -248,7 +271,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/minus"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_minus"-->
 <!--            android:layout_width="94dp"-->
@@ -265,7 +289,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/umnogenie"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_umnogenie"-->
 <!--            android:layout_width="94dp"-->
@@ -282,7 +307,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/delenie"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_delenie"-->
 <!--            android:layout_width="94dp"-->
@@ -305,7 +332,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/ravno"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginStart="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_ravno"-->
 <!--            android:layout_width="94dp"-->
@@ -322,7 +351,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/ravno"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_zp"-->
 <!--            android:layout_width="94dp"-->
@@ -333,6 +364,7 @@
 <!--            android:textSize="@dimen/textCounter">-->
 <!--        </TextView>-->
     </LinearLayout>
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
