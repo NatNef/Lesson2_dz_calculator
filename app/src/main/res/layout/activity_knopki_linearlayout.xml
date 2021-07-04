@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"  >
+    android:orientation="vertical"
+    >
 <!--    android:background="@drawable/fon"-->
 
 
@@ -54,6 +55,7 @@
             android:text="@string/_2"
             android:textSize="@dimen/button_text"
             android:gravity="center"
+            style="@style/MyCoolButtonStyle"
             />
 
 <!--        <TextView-->
@@ -75,7 +77,8 @@
             android:text="@string/_3"
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 
 <!--        <TextView-->
 <!--            android:id="@+id/textView_3"-->
@@ -103,7 +106,8 @@
             android:text="@string/_4"
             android:textSize="@dimen/button_text"
             android:layout_marginStart="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_4"-->
 <!--            android:layout_width="94dp"-->
@@ -121,7 +125,8 @@
             android:layout_weight="1"
             android:text="@string/_5"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_5"-->
 <!--            android:layout_width="94dp"-->
@@ -140,7 +145,8 @@
             android:text="@string/_6"
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_6"-->
 <!--            android:layout_width="94dp"-->
@@ -166,7 +172,8 @@
             android:layout_weight="1"
             android:text="@string/_7"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_7"-->
 <!--            android:layout_width="94dp"-->
@@ -184,7 +191,8 @@
             android:layout_weight="1"
             android:text="@string/_8"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_8"-->
 <!--            android:layout_width="94dp"-->
@@ -204,6 +212,7 @@
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
             android:gravity="center"
+            style="@style/MyCoolButtonStyle"
             />
 <!--        <TextView-->
 <!--            android:id="@+id/textView_9"-->
@@ -231,7 +240,8 @@
             android:textSize="@dimen/button_text"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_0"-->
 <!--            android:layout_width="94dp"-->
@@ -256,7 +266,9 @@
             android:layout_weight="1"
             android:text="@string/counter_plus"
             android:textSize="@dimen/button_text"
-            android:layout_marginStart="20dp"/>
+            android:layout_marginStart="20dp"
+            style="@style/MyCoolButtonStyle2"
+            />
 <!--        <TextView-->
 <!--            android:id="@+id/textView_plus"-->
 <!--            android:layout_width="94dp"-->
@@ -274,7 +286,8 @@
             android:layout_weight="1"
             android:text="@string/minus"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle2"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_minus"-->
 <!--            android:layout_width="94dp"-->
@@ -292,7 +305,8 @@
             android:layout_weight="1"
             android:text="@string/umnogenie"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle2"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_umnogenie"-->
 <!--            android:layout_width="94dp"-->
@@ -311,7 +325,8 @@
             android:text="@string/delenie"
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle2"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_delenie"-->
 <!--            android:layout_width="94dp"-->
@@ -336,7 +351,8 @@
             android:text="@string/ravno"
             android:textSize="@dimen/button_text"
             android:layout_marginStart="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle3"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_ravno"-->
 <!--            android:layout_width="94dp"-->
@@ -355,7 +371,8 @@
             android:text="@string/zp"
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            style="@style/MyCoolButtonStyle2"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_zp"-->
 <!--            android:layout_width="94dp"-->
