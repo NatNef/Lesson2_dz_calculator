@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@drawable/fon"
-    >
+    android:orientation="vertical"  >
+<!--    android:background="@drawable/fon"-->
+
 
 
     <Space
@@ -23,6 +23,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
+            style="@style/MyCoolButtonStyleStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -52,7 +53,8 @@
             android:layout_weight="1"
             android:text="@string/_2"
             android:textSize="@dimen/button_text"
-            android:gravity="center"/>
+            android:gravity="center"
+            />
 
 <!--        <TextView-->
 <!--            android:id="@+id/textView_2"-->
@@ -251,7 +253,7 @@
             android:id="@+id/button_plus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="@string/counter_plus"
             android:textSize="@dimen/button_text"
             android:layout_marginStart="20dp"/>
@@ -350,7 +352,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ravno"
+            android:text="@string/zp"
             android:textSize="@dimen/button_text"
             android:layout_marginEnd="20dp"
             android:gravity="center"/>
