@@ -352,7 +352,7 @@
             android:textSize="@dimen/button_text"
             android:layout_marginStart="20dp"
             android:gravity="center"
-            style="@style/MyCoolButtonStyle3"/>
+            style="@style/MyCoolButtonStyle2"/>
 <!--        <TextView-->
 <!--            android:id="@+id/textView_ravno"-->
 <!--            android:layout_width="94dp"-->
